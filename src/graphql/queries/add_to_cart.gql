@@ -1,0 +1,25 @@
+mutation AddToCart (
+  $name: String,
+  $brand: String,
+  $imageUrl: String,
+  $price:String,
+  $description:String,
+  $discountPrice:String
+){
+  addToCart(
+    name: $name,
+    brand: $brand,
+    imageUrl: $imageUrl,
+    price:$price,
+    description:$description,
+    discountPrice:$discountPrice
+  ) {
+    _id
+    name
+    brand
+    imageUrl
+    price
+    discountPrice
+    description
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "gwData": [{
+    "name": "s6",
+    "brand": "Samsung",
+    "imageUrl": "s6.jpeg",
+    "price": "$350.00",
+    "discountPrice": "$275.99",
+    "description": "s6 description"
+  },
+    {
+      "name": "G5",
+      "brand": "Motorola",
+      "imageUrl": "g5.jpeg",
+      "price": "$150.00",
+      "discountPrice": "$75.99",
+      "description": "Moto G5"
+    },
+    {
+      "name": "Pixel XL",
+      "brand": "Google",
+      "imageUrl": "pixel.jpeg",
+      "price": "$150.00",
+      "discountPrice": "$75.99",
+      "description": "Google Pixel XL"
+    },
+    {
+      "name": "iPhone 7",
+      "brand": "Apple",
+      "imageUrl": "iphone7.jpeg",
+      "price": "$250.00",
+      "discountPrice": null,
+      "description": "iPhone 7 description"
+    },
+    {
+      "name": "iPhone 5",
+      "brand": "Apple",
+      "imageUrl": "iphone6s.jpeg",
+      "price": "$120.00",
+      "discountPrice": null,
+      "description": "iPhone 5 description"
+    }
+  ]
+}

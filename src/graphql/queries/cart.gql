@@ -1,0 +1,11 @@
+query CartList {
+  cartList {
+    _id
+    name
+    brand
+    imageUrl
+    price
+    discountPrice
+    description
+  }
+}

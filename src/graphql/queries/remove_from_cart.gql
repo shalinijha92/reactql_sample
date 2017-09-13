@@ -1,0 +1,15 @@
+mutation RemoveFromCart (
+  $id: ID
+){
+  removeFromCart(
+    id: $id
+  ) {
+    _id
+    name
+    brand
+    imageUrl
+    price
+    discountPrice
+    description
+  }
+}
